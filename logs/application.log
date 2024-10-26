@@ -1,0 +1,29 @@
+2024-10-26 01:40:00.839  INFO 13976 --- [main] c.e.l.LogCollectorApplication            : Starting LogCollectorApplication using Java 17.0.8 on XM15ProX with PID 13976 (D:\code\idea\log-collector\target\classes started by decli in D:\code\idea\log-collector)
+2024-10-26 01:40:00.842 DEBUG 13976 --- [main] c.e.l.LogCollectorApplication            : Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-10-26 01:40:00.843  INFO 13976 --- [main] c.e.l.LogCollectorApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-10-26 01:40:02.065  INFO 13976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-26 01:40:02.072  INFO 13976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-26 01:40:02.073  INFO 13976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-10-26 01:40:02.182  INFO 13976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-26 01:40:02.182  INFO 13976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1277 ms
+2024-10-26 01:40:02.720  INFO 13976 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-10-26 01:40:02.760  INFO 13976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-26 01:40:02.775  INFO 13976 --- [main] c.e.l.LogCollectorApplication            : Started LogCollectorApplication in 2.377 seconds (JVM running for 3.09)
+2024-10-26 01:40:03.246  INFO 13976 --- [RMI TCP Connection(3)-192.168.50.129] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 01:40:03.247  INFO 13976 --- [RMI TCP Connection(3)-192.168.50.129] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-26 01:40:03.248  INFO 13976 --- [RMI TCP Connection(3)-192.168.50.129] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-26 01:40:41.084  WARN 13976 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "2024-10-14 09:15:30": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2024-10-14 09:15:30' could not be parsed at index 10; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDateTime` from String "2024-10-14 09:15:30": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2024-10-14 09:15:30' could not be parsed at index 10<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 18] (through reference chain: com.example.logcollector.model.LogEntry["eventTime"])]
+2024-10-26 01:43:19.260  INFO 1328 --- [main] c.e.l.LogCollectorApplication            : Starting LogCollectorApplication using Java 17.0.8 on XM15ProX with PID 1328 (D:\code\idea\log-collector\target\classes started by decli in D:\code\idea\log-collector)
+2024-10-26 01:43:19.269 DEBUG 1328 --- [main] c.e.l.LogCollectorApplication            : Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-10-26 01:43:19.269  INFO 1328 --- [main] c.e.l.LogCollectorApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-10-26 01:43:20.009  INFO 1328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-26 01:43:20.014  INFO 1328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-26 01:43:20.015  INFO 1328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2024-10-26 01:43:20.076  INFO 1328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-26 01:43:20.076  INFO 1328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 769 ms
+2024-10-26 01:43:20.500  INFO 1328 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-10-26 01:43:20.530  INFO 1328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-26 01:43:20.543  INFO 1328 --- [main] c.e.l.LogCollectorApplication            : Started LogCollectorApplication in 1.614 seconds (JVM running for 2.129)
+2024-10-26 01:43:21.049  INFO 1328 --- [RMI TCP Connection(2)-192.168.50.129] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 01:43:21.049  INFO 1328 --- [RMI TCP Connection(2)-192.168.50.129] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-26 01:43:21.050  INFO 1328 --- [RMI TCP Connection(2)-192.168.50.129] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
